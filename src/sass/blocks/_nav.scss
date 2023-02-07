@@ -1,0 +1,72 @@
+.nav {
+    height: 60px;
+    padding: 18px 0 18px 63px;
+    background-color: $main-color;
+    &__search {
+        margin-bottom: 40px;
+        position: relative;
+        &::after {
+            content: '../icons/header/search.png';
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            color: #fff;
+            position: absolute;
+            left: 0;
+            top: 0;
+            border: none;
+        }
+        &-input {
+            background-color: $main-color;
+            border: none;
+            border-radius: 20px;
+            padding-left: 35px;
+            padding-right: 10px;
+            color: #ffffff;
+        }
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        height: 42px;
+        &-logo {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        &-left{
+            width: 330px;
+            font-size: 18px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            color: $main-color;
+        }
+        &-right {
+            width: 240px;
+            font-size: 18px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            color: $main-color;
+            text-decoration: none;
+            text-transform: none;
+        }
+        &-purchase{
+
+        }
+        &-counter {
+            width: 42px;
+            height: 42px;
+            border-radius: 100%;
+            background-color:$main-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $second-color;
+            font-size: 18px;
+        }
+    }
+}
