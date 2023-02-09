@@ -1,15 +1,18 @@
 @import 'libs/bootstrap-reboot.min';
 
-* {
-    font-family: 'AeonikTRIAL', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-@import 'base/global';
 @import 'base/reset';
 @import 'base/fonts';
 @import 'base/mixins';
 @import 'base/variables';
+@import 'base/global';
 
 @import 'blocks/nav';
+@import 'blocks/top';
+@import 'blocks/season';
+@import 'blocks/skincare';
+@import 'blocks/fresh';
+@import 'blocks/new_collection';
+@import 'blocks/newsletter';
+@import 'blocks/journal';
+@import 'blocks/footer';
+@import 'blocks/carousel';

@@ -1,6 +1,36 @@
 @font-face {
-    font-family: "Aeonik";
+    font-family: "AeonikTRIAL";
     font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/AeonikTRIAL-Regular.otf);
+}
+@font-face {
+    font-family: "AeonikTRIAL-italic";
+    font-style: italic;
+    font-weight: 400;
+    src: url(../../fonts/AeonikTRIAL-LightItalic.otf);
+}
+@font-face {
+    font-family: "AeonikTRIAL-Lightitalic";
+    font-style: italic;
+    font-weight: 400;
+    src: url(../../fonts/AeonikTRIAL-LightItalic.otf);
+}
+@font-face {
+    font-family: "RecifeDisplay";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/RecifeDisplay-Regular.woff2);
+}
+@font-face {
+    font-family: "RecifeDisplay-italic";
+    font-style: italic;
+    font-weight: 400;
+    src: url(../../fonts/RecifeDisplay-RegularItalic.woff);
+}
+@font-face {
+    font-family: "RMNeueTRIAL-Regular";
+    font-style: italic;
     font-weight: 400;
     src: url(../../fonts/AeonikTRIAL-Regular.otf);
 }

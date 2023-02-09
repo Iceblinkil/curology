@@ -1,20 +1,21 @@
 .nav {
-    height: 60px;
-    padding: 18px 0 18px 63px;
-    background-color: $main-color;
+    margin-bottom: 10px;
     &__search {
-        margin-bottom: 40px;
+        height: 60px;
+        padding: 18px 0 18px 63px;
+        background-color: $main-color;
+        margin-bottom: 10px;
         position: relative;
+        border:none;
         &::after {
-            content: '../icons/header/search.png';
+            content: '';
+            background-image: url(../icons/header/search.png) ;
             width: 24px;
             height: 24px;
             border-radius: 50%;
-            color: #fff;
+            left: 71px;
+            top: 19px;
             position: absolute;
-            left: 0;
-            top: 0;
-            border: none;
         }
         &-input {
             background-color: $main-color;
@@ -38,6 +39,7 @@
             width: 330px;
             font-size: 18px;
             display: flex;
+            font-weight: 400;
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
@@ -47,6 +49,7 @@
             width: 240px;
             font-size: 18px;
             display: flex;
+            font-weight: 400;
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;

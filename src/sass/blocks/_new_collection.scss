@@ -1,0 +1,24 @@
+.new_collection {
+    min-height: 700px;
+    margin-bottom: 150px;
+    &__bg {
+        min-height: 700px;
+        background: url('../../img/new_collection/background.png') center (center/cover) no-repeat;;
+        padding: 82px 98px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-size: 46px;
+        color: $second-color;
+        font-family: "AeonikTRIAL-Lightitalic";
+        text-align: center;
+        line-height: 55px;
+        margin-bottom: 25px;
+        span {
+            font-family: 'RecifeDisplay-italic';
+        }
+    }
+}

@@ -1,7 +1,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "AeonikTRIAL" sans-serif;
+	font-family: "AeonikTRIAL", "AeonikTRIAL-italic", "AeonikTRIAL-Lightitalic","RecifeDisplay", "RecifeDisplay-italic", "RMNeueTRIAL-Regular" sans-serif;
 }
 
 .main {
@@ -17,7 +17,13 @@ body {
   padding: 0 15px;
 }
 
-
-
-
-
+.btn {
+	font-size: 18px;
+	color: $main-color;
+	background-color: $second-color;
+	border: none;
+	text-align: center;
+	height: 50px;
+	width: 170px;
+	border-radius: 30px;
+}

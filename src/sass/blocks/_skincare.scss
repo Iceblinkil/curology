@@ -1,0 +1,47 @@
+.skincare {
+    min-height: 700px;
+    margin-bottom: 150px;
+    &__bg {
+        min-height: 700px;
+        background-color: $main-color;
+        padding: 82px 98px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__descr {
+        width: 414px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-size: 46px;
+        color: $second-color;
+        font-family: "AeonikTRIAL-Lightitalic";
+        text-align: center;
+        line-height: 55px;
+        margin-bottom: 25px;
+        span {
+            font-family: 'RecifeDisplay-italic';
+        }
+    }
+    &__subtitle {
+        text-align: center;
+        width: 237px;
+        color: rgba(216, 152, 255, 0.46);
+        margin-bottom: 25px;
+    }
+    &__btn {
+        font-size: 18px;
+        color: $main-color;
+        background-color: $second-color;
+        border: none;
+        text-align: center;
+        height: 50px;
+        width: 170px;
+        border-radius: 30px;
+    }
+}
