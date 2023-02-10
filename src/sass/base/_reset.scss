@@ -33,8 +33,9 @@ dd {
 }
 
 ul[class] {
-  list-style: none;
+    list-style: none;
 }
+
 
 img {
   max-width: 100%;
@@ -51,8 +52,4 @@ select {
 a{
   text-decoration: none !important;
   text-transform: none !important;
-  &:hover {
-    text-decoration: none !important;
-    text-transform: none !important;
-  }
 }

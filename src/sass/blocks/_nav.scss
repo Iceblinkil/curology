@@ -17,16 +17,23 @@
             top: 19px;
             position: absolute;
         }
+        &-form {
+            border: none;
+        }
         &-input {
             background-color: $main-color;
             border: none;
-            border-radius: 20px;
             padding-left: 35px;
             padding-right: 10px;
             color: #ffffff;
         }
     }
     &__menu {
+        a {
+            &:hover {
+                color: $main-color;
+            }
+        }
         display: flex;
         justify-content: space-between;
         height: 42px;

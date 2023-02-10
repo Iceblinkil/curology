@@ -1,20 +1,31 @@
-// $(function () {
-//   $('.carousel__slider').slick({
-//       dots: true,
-//       arrows: false,
-//       fade: true,
-//       slidesToShow: 3,
-//       slidesToScroll: 1,
-      
-//   });
+// const swiper = new Swiper('.swiper', {
+//   // Optional parameters
+//   direction: 'horizontal',
+//   loop: true,
+
+//   // If we need pagination
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+
+//   // Navigation arrows
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+
+//   // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
 // });
 
-$(function () {
-  $('.carousel__slider').slick({
-    dots: true,
-    arrows: true,
-    fade: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-  });
-})
+const swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
